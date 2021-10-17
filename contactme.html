@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>About me</h2>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Abhay Tomar</th>
+      </tr>
+      <tr>
+        <th>email</th>
+        <th>abhay.tomar2002@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Contact Number</th>
+        <th>8588016266</th>
+      </tr>
+    </table>
+
+    <hr />
+    <h3>Contact Me</h3>
+
+    <form
+      action="mailto:abhay.tomar2002@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <table>
+        <tr>
+          <td>
+            <strong><label for="name">Your Name:</label></strong>
+          </td>
+          <td><input type="text" name="name" id="name" /></td>
+        </tr>
+        <tr>
+          <td>
+            <strong><label for="email">email id:</label></strong>
+          </td>
+          <td><input type="text" name="email" id="email" /></td>
+        </tr>
+      </table>
+
+      <strong><label for="About">About You</label></strong>
+      <br />
+      <textarea name="About" id="" cols="30" rows="10">Write here</textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
